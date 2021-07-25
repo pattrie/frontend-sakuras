@@ -1,0 +1,82 @@
+body, h1{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-style: italic;
+}
+
+.page-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    color: aliceblue;
+    background: #986AFB;
+}
+
+.page-header h1{
+    padding-top: 10px;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.main-container{
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.info-container img{
+    width: 150px;
+    height: 150px;
+    border: solid 3px #986AFB;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.info-container header{
+    display: flex;
+    align-items: center;
+}
+
+.info-container p{
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+footer a{
+    text-decoration: none;
+    border: solid 2px #986afb;
+    border-radius: 8px;
+    color: #986afb;
+    padding: 5px 10px;
+}
+
+footer a:hover{
+    background: #986afb;
+    color: #fff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  p a{
+    text-decoration: none;
+    color: #986afb;
+  }
